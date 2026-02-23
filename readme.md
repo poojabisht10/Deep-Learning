@@ -9,6 +9,8 @@ The main objective of these experiments is to strengthen conceptual understandin
 ```
 ├── Logistic_Regression_Soft_Decision_Model.ipynb
 ├── Multi_Linear_Regression_via_Linear_Perceptron.ipynb
+├── UCS761_Lab5_Linear_Regression_From_Scratch.ipynb
+├── UCS761_Lab6_Learning_to_Bend_a_Model.ipynb
 ├── README.md
 ```
 
@@ -49,24 +51,71 @@ To implement **multiple linear regression** using a perceptron-based linear mode
 
 ---
 
-## 🧠 Key Learning Outcome
+## 🧪 Experiment 5: Linear Regression Neuron using Gradient Descent (From Scratch)
 
-> A single linear model can be adapted for both **classification and regression** tasks by modifying the **loss function and output interpretation**, without changing the underlying model structure.
+📘 **Notebook:**  
+`UCS761_Lab5_Linear_Regression_From_Scratch.ipynb`
+
+### Objective
+To understand how a **single linear neuron learns numeric predictions** using **gradient descent**, without using any machine learning libraries.  
+The experiment predicts the **age of abalone** using physical measurements.
+
+### Topics Covered
+- Loading and exploring the Abalone dataset (UCI)
+- Feature selection and justification
+- Target transformation (`Age = Rings + 1.5`)
+- Train-test split (manual)
+- Input normalization using training statistics
+- Linear forward pass
+- Mean Squared Error (MSE) and Mean Absolute Error (MAE)
+- Manual gradient computation for weights and bias
+- Gradient Descent training loop
+- Error analysis and bias observation
+
+---
+
+## 🧪 Experiment 6: Learning to Bend a Model (Non-Linear Regression)
+
+📘 **Notebook:**  
+`UCS761_Lab6_Learning_to_Bend_a_Model.ipynb`
+
+### Objective
+To understand **why linear models fail on non-linear data** and how introducing a **hidden layer with activation functions** allows the model to learn curved relationships.
+
+This experiment builds a small neural network **entirely from scratch**.
+
+### Topics Covered
+- Creating a synthetic non-linear dataset
+- Limitations of linear models
+- Designing a model with a hidden layer
+- Role of activation functions (ReLU)
+- Importance of activation slopes
+- Forward pass through multiple layers
+- Mean Squared Error (MSE) loss
+- Manual backpropagation
+- Gradient-based parameter updates
+- Observing how the model bends to fit data
+
+---
+
+## 🧠 Key Learning Outcomes
+
+> - A single linear model can be used for both **classification and regression** by changing the loss function.  
+> - Linear models can only represent straight-line relationships.  
+> - Non-linearity comes from hidden layers and activation functions.  
+> - Gradients provide direction for learning.  
+> - Backpropagation is structured error flow, not magic.
 
 ---
 
 ## 🛠 Tools & Technologies
-- Python
-- NumPy
-- Pandas
-- Jupyter Notebook / Google Colab
+- Python  
+- NumPy  
+- Pandas  
+- Google Colab  
 
 ---
 
 ## 👤 Author
-**Pooja Bisht**
-
----
-
-## 📌 Course
-**UCS761 – Deep Learning**
+**Pooja Bisht**  
+UCS761 – Deep Learning
