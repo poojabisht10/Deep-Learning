@@ -7,8 +7,8 @@ The main objective of these experiments is to strengthen conceptual understandin
 
 ## 📁 Repository Structure
 ```
-├── Logistic_Regression_Soft_Decision_Model.ipynb
-├── Multi_Linear_Regression_via_Linear_Perceptron.ipynb
+├── UCS761_Lab3_Logistic_Regression_Soft_Decision_Model.ipynb
+├── UCS761_Lab4_Multi_Linear_Regression_via_Linear_Perceptron.ipynb
 ├── UCS761_Lab5_Linear_Regression_From_Scratch.ipynb
 ├── UCS761_Lab6_Learning_to_Bend_a_Model.ipynb
 ├── README.md
@@ -19,7 +19,7 @@ The main objective of these experiments is to strengthen conceptual understandin
 ## 🧪 Experiment 1: Logistic Regression as a Soft Decision Model
 
 📘 **Notebook:**  
-`Logistic_Regression_Soft_Decision_Model.ipynb`
+`UCS761_Lab3_Logistic_Regression_Soft_Decision_Model.ipynb`
 
 ### Objective
 To analyze logistic regression as a **probability-based classification model** and understand how it improves upon hard decision models like the perceptron.
@@ -36,7 +36,7 @@ To analyze logistic regression as a **probability-based classification model** a
 ## 🧪 Experiment 2: Multiple Linear Regression using Linear Perceptron
 
 📘 **Notebook:**  
-`Multi_Linear_Regression_via_Linear_Perceptron.ipynb`
+`UCS761_Lab3_Multi_Linear_Regression_via_Linear_Perceptron.ipynb`
 
 ### Objective
 To implement **multiple linear regression** using a perceptron-based linear model trained with a regression loss function.
