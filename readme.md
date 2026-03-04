@@ -35,7 +35,8 @@ Deep-Learning
 │   ├── UCS761_Lab5_Linear_Regression_From_Scratch.ipynb
 │   ├── UCS761_Lab6_Learning_to_Bend_a_Model.ipynb
 │   └── UCS761_Lab_6_Architecture_Building.ipynb
-│
+│   └── UCS761_Lab7_Numbers_to_Vision.ipynb
+│   └── UCS761_Lab7_Report
 └── README.md
 ```
 
